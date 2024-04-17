@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daylor Rymer Scatch</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .box {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        .box1, .box2, .box3, .box4 {
+            width: 100%;
+        }
+        .box img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="box box1">
+            <h2>Hobby</h2>
+            <p>
+                <ul> <!-- Adding an unordered list embedded in an ordered list -->
+                    <li>I have surfed for 6 years now</li>
+                    <li>This is Surfing at lake powell</li>
+                    <li>I used to ride skimboards profesonally</li>
+                </ul>
+            </p>
+            <img src="Images/IMG_2084.jpg" alt="Wakesurfing">
+        </div>
+        <div class="box box2">
+            <h2>Surfing Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Wb7pc8O360M?si=cG7mo87PJvOqXKuP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="box box3">
+            <h2>Professional Experience</h2>
+            <img src="Images/Screenshot 2024-04-16 at 12.18.30 PM.png" alt="Resume">
+            <a href="https://drymer7.github.io/dayday/">Link to Resume</a>
+        </div>
+        <div class="box box4">
+            <h2>Tableau Visualization</h2>
+            <a id="anchor"></a> 
+            <div class='tableauPlaceholder' id='viz1713292301822' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;VG&#47;VGContest_InteractiveFiscalCalendar_ShinichiroMurakami&#47;FYCalendar&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='VGContest_InteractiveFiscalCalendar_ShinichiroMurakami&#47;FYCalendar' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;VG&#47;VGContest_InteractiveFiscalCalendar_ShinichiroMurakami&#47;FYCalendar&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div><script type='text/javascript'> var divElement = document.getElementById('viz1713292301822'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); </script>
+        </div>
+    </header>
+</body>
+</html>
